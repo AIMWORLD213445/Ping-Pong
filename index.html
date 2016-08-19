@@ -7,16 +7,19 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <title>Ping-Pong</title>
   </head>
-  <body background="img/pin-pong.jpeg">
-    <form id="numberInput">
-    <div class="form-group">
-      <label for "number"> Enter a number to count to for Ping-Pong!</label>
-      <Input id="number" type="number">
-        <button type="submit" class="btn-success btn-lg">Play!</button>
-        <button id="resetBtn" type="reset" class="btn btn-danger btn-lg" onClick="window.location.reload()">Reset</button>
+  <body background="img/pin-pong.jpeg" class="jumbotron">
+    <h1>Would you like to play Ping-Pong?</h1>
+    <div class="jumbotron">
+      <form id="numberInput">
+        <div class="form-group form-group-lg center block">
+          <label for "number">Enter a number to count to for Ping-Pong!</label>
+          <Input id="number" type="number" min="1">
+            <button id="main" type="submit" class="btn-success btn-lg">Play!</button>
+            <button id="resetBtn" type="reset" class="btn btn-danger btn-lg" onClick="window.location.reload()">Reset</button>
+        </div>
+      </form>
     </div>
-    </form>
-    <div >
+    <div>
       <ul id="displayArea">
       </ul>
     </div>

@@ -1,15 +1,26 @@
-button{
-  display: block:
+h1{
+  background-color: azure;
+  text-align: center;
+}
+
+body{
+  align-items: center;
+  width: 100%;
 }
 
 label{
-  text-align: center;
-  font-size: 250%;
-  background-color: azure;
+  font-size: 400%;
+  background-color: lightgray;
 }
 
+Input{
+  text-align:center;
+  font-size: 350%;
+  background-color: lightgray;
+}
 
 #displayArea{
   word-spacing: 100000000000px;
   background:rgba(255,255,255,0.9);
+  font-size: 400%;
 }

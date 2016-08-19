@@ -28,4 +28,14 @@ $(document).ready(function() {
       var inputNumber = parseInt($("input#number").val());
       $("#displayArea").append(count(inputNumber));
     });
-});
+  });
+
+$(function(){
+  $("#main").click(function(){
+    $(this).hide();
+    });
+  });
+
+$("#resetBtn").click(function() {
+  $("#main").show();
+    });
