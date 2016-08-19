@@ -7,15 +7,15 @@ function count(inputNumber) {
     numHolder [i] = counter + " "
     counter++;
   };
-    for (i = 0; i < inputNumber; i++) {
-  if ((numHolder[i] % 15 === 0)=== true){
+  for (i = 0; i < inputNumber; i++) {
+   if ((numHolder[i] % 15 === 0)=== true){
     numHolder[i] = "ping-pong" + " "
-  } else if((numHolder[i] % 5 === 0)=== true){
+   } else if((numHolder[i] % 5 === 0)=== true){
     numHolder[i] = "pong" + " "
-  } else if((numHolder[i] % 3 === 0)=== true){
+   } else if((numHolder[i] % 3 === 0)=== true){
     numHolder[i] ="ping" + " "
-  }
-};
+   }
+  };
   var resultString = numHolder.toString()
   return resultString.split(",")
 };

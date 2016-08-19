@@ -1,11 +1,15 @@
 h1{
   background-color: azure;
   text-align: center;
+  font-size: 250%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 body{
   align-items: center;
   width: 100%;
+  height: auto;
 }
 
 label{
@@ -15,6 +19,7 @@ label{
 
 .jumbotron{
 align-self: center;
+margin-top: 0;
 margin: auto;
 }
 
