@@ -8,14 +8,14 @@ function count(inputNumber) {
     counter++;
   };
   for (i = 0; i < inputNumber; i++) {
-   if ((numHolder[i] % 15 === 0)=== true){
-    numHolder[i] = "ping-pong" + " "
-   } else if((numHolder[i] % 5 === 0)=== true){
-    numHolder[i] = "pong" + " "
-   } else if((numHolder[i] % 3 === 0)=== true){
-    numHolder[i] ="ping" + " "
-   }
-  };
+    if ((numHolder[i] % 15 === 0)=== true){
+        numHolder[i] = "ping-pong" + " "
+    } else if((numHolder[i] % 5 === 0)=== true){
+        numHolder[i] = "pong" + " "
+    } else if((numHolder[i] % 3 === 0)=== true){
+      numHolder[i] ="ping" + " "
+    }
+   };
   var resultString = numHolder.toString()
   return resultString.split(",")
 };
@@ -23,19 +23,20 @@ function count(inputNumber) {
 //front end
 
 $(document).ready(function() {
-    $("form#numberInput").submit(function(event){
-      event.preventDefault();
-      var inputNumber = parseInt($("input#number").val());
-      $("#displayArea").append(count(inputNumber));
-    });
+  $("form#numberInput").submit(function(event){
+    event.preventDefault();
+    var inputNumber = parseInt($("input#number").val());
+    $("#displayArea").append(count(inputNumber));
   });
+});
+
 
 $(function(){
   $("#main").click(function(){
     $(this).hide();
-    });
   });
+});
 
 $("#resetBtn").click(function() {
   $("#main").show();
-    });
+});
