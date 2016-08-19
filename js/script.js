@@ -30,7 +30,6 @@ $(document).ready(function() {
   });
 });
 
-
 $(function(){
   $("#main").click(function(){
     $(this).hide();

@@ -6,7 +6,7 @@
 
 ## Description
 
-Takes user input and displays a range of numbers while "pinging" and "ponging" between multiples of 3 and 5.
+Takes user input and displays a range of numbers while "pinging" and "ponging" between multiples of 3 and 5, and "ping-ponging" on multiples of 15.
 
 ## Specifications:
 
@@ -14,7 +14,7 @@ It can display the range of numbers up to and including the user input, starting
 
     Example Input: 5
 
-    Example Output: [1,2,3,4,5]
+    Example Output: 1,2,3,4,5
 
 It can display "ping" in place of all numbers divisible by 3.
 
