@@ -1,3 +1,15 @@
+button{
+  display: block:
+}
+
+label{
+  text-align: center;
+  font-size: 250%;
+  background-color: azure;
+}
+
+
 #displayArea{
   word-spacing: 100000000000px;
+  background:rgba(255,255,255,0.9);
 }
