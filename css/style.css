@@ -13,6 +13,11 @@ label{
   background-color: lightgray;
 }
 
+.jumbotron{
+align-self: center;
+margin: auto;
+}
+
 Input{
   text-align:center;
   font-size: 350%;
