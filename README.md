@@ -37,7 +37,7 @@ It can display "ping-pong" in place of all numbers divisible by 15.
 
 ## Setup/Installation Requirements
 
-Clone from github and open HTML file
+Clone from github and open HTML file, or go to https://aimworld213445.github.io/Ping-Pong/
 
 ## Known Bugs
 
