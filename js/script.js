@@ -1,21 +1,20 @@
 //back end
 
 function count(inputNumber) {
-  var numHolder = []
+  var numHolder = [];
   for (i = 1; i < inputNumber+1; i++) {
     numHolder.push(i);
   };
   for (i = 0; i < inputNumber; i++) {
     if ((numHolder[i] % 15 === 0)){
-        numHolder[i] = "ping-pong"
+        numHolder[i] = "ping-pong";
     } else if((numHolder[i] % 5 === 0)){
-        numHolder[i] = "pong"
+        numHolder[i] = "pong";
     } else if((numHolder[i] % 3 === 0)){
-      numHolder[i] ="ping"
+      numHolder[i] ="ping";
     }
    };
-  var resultString = numHolder.toString()
-  return resultString
+  return numHolder;
 };
 
 //front end
